@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F I N A N C E R</title>
+    <link rel="stylesheet" href="moviment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bahnschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    
+    <div id="fundo">
+
+        <div id="menulateralesquerda">
+            <div onclick="rpp4()">
+                <p id="ne">F I N A N C E R </p>
+            </div>
+
+            <button class="butao" onclick="rpp4()">  
+                Home
+                <i class="fa-solid fa-house"></i>
+            </button>
+
+            <button class="butao" onclick="rpp2()">
+                Movimentações
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </button>
+        </div>
+
+        <div id="menucentral">
+
+            <div id="entrada">
+                <select class="txtattbtn" id="tipo">
+                    <option value="0">Entrada</option>
+                    <option value="1">Saída</option>
+                </select>
+
+                <input class="txtattbtn" type="number" id="valorInput3">
+
+                <button class="txtattbtn" id="atualizarBtn3">Atualizar</button>
+                <button class="txtattbtn" id="atualizarBtn4">Limpar</button>
+            </div>
+
+
+            <div id="ab">
+                <div id="listamove">
+                </div>
+            </div>
+                
+        </div>
+        
+    </div>
+    <script src="code.js"></script>
+    <script src="code2.js"></script>
+
+</body>
+    
+
+</html>

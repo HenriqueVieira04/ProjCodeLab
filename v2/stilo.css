@@ -1,0 +1,191 @@
+#fundo{
+    background-color: #F6F5FB;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menulateralesquerda{
+    background-color: white;
+    height: 100vh;
+    width: 15vw;
+    box-shadow: 4px 4px 10px #A1A1A1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.butao{
+    border: 0px;
+    background-color: white;
+    width: 15vw;
+    height: 5vh;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    font-weight: bolder;  
+    font-size: 14px;  
+    color: #3B3B3B;
+    text-align: left;
+    padding-left: 3vw;
+}
+
+.butao:hover{
+    background-color: #F2F2F2;
+    color: #20AB98;
+    transform: scale(1.05);
+}
+
+#ne{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: #3B3B3B;
+    padding-top: 10px;
+}
+
+#spacocen{
+    justify-content: space-between;
+}
+
+.central{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    background-color: white;
+    border-radius: 10px;
+    height: 48vh;
+    width: 40vw;
+    box-shadow: 4px 4px 10px #A1A1A1;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central:hover{
+    transform: scale(1.05);
+}
+
+.nc{
+    margin-top: 3vh;
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    font-weight: bolder;  
+    font-size: 17px;  
+    color: #3B3B3B;
+}
+
+#divsgastos{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#grafgastos{
+    height: 35vh;
+    width: 35vh; 
+}
+
+#spacodir{
+    justify-content: space-between;
+}
+
+.menulateraldireita{
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+    background-color: white;
+    height: 25vh;
+    width: 25vw;
+    box-shadow: 4px 4px 10px #A1A1A1;
+    display: flex;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menulateraldireita:hover{
+    transform: scale(1.05);
+}
+
+#mnc2{
+    justify-content: space-between;
+}
+
+#mnld1{
+    justify-content: space-between;
+}
+
+#mnld12{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: x-large;
+}
+
+#mnld22{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: x-large;
+}
+
+
+
+#menulatdirfinal{
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+    background-color: white;
+    height: 40vh;
+    width: 25vw;
+    box-shadow: 4px 4px 10px #A1A1A1;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menulatdirfinal:hover{
+    transform: scale(1.05);
+}
+
+.nd{
+    margin-top: 3vh;
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;    
+    color: #3B3B3B;
+}
+
+.txtattbtn{
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cxinput{
+    border-radius: 5px;
+    border-color: black;
+}
+
+.cxinputl{
+    width: 200px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#conjgraf{
+    height: 35vh;
+    width: 35vw; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nomegraf{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+}
